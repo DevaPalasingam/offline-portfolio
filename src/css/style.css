@@ -2,13 +2,28 @@ body {
 	background-color: #2B2B2B;
 }
 
-.onlineText {
+.row {
+	margin: 0;
+}
+
+.col {
+	padding: 0;
+}
+
+.wrapper {
+	text-align: center;
+	border: 1px solid #E9E581;
+	margin: 20px auto;
+	padding: 5px;
+}
+
+.text {
 	font-size: 30px;
-	background-color: #E9E581;
-	color: #2B2B2B;
+	color: #E9E581;
 	font-family: 'Neuton', serif;
 	text-align: center;
-	margin-top: 20px;
+	margin: 5px;
+	border: 1px solid #E9E581;
 }
 
 .onlineTextMain {

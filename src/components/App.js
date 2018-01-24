@@ -9,15 +9,16 @@ class App extends React.Component {
 		this.state = {};
 	}
 
+// need to switch offline and online when done testing
 	render() {
 		return (
 			<div>
-				<Offline>
-					<OfflineContent/>
-				</Offline>
 				<Online>
-					<OnlineContent/>
+					<OfflineContent/>
 				</Online>
+				<Offline>
+					<OnlineContent/>
+				</Offline>
 			</div>
 		);
 	}

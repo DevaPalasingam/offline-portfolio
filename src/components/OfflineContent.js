@@ -3,40 +3,18 @@ import { Grid, Row, Col } from "react-bootstrap";
 
 const OfflineContent = () => {
 	return (
-		<Grid>
-			<Row>
-				<Col xs={12} md={8}>
-					Testing
+		<Grid className="wrapper">
+			<Row className="row">
+				<Col className="col" xs={8}>
+					<div className="text">Test</div>
 				</Col>
-				<Col xs={6} md={4}>
-					Testing
+				<Col className="col" xs={2}>
+					<Row className="row"><div className="text">Test</div></Row>
+					<Row className="row"><div className="text">Test</div></Row>
+					<Row className="row"><div className="text">Test</div></Row>
 				</Col>
-			</Row>
-
-			<Row>
-				<Col xs={6} md={4}>
-					Testing
-				</Col>
-				<Col xs={6} md={4}>
-					Testing
-				</Col>
-				<Col xsHidden md={4}>
-					Testing
-				</Col>
-			</Row>
-
-			<Row>
-				<Col xs={6} xsOffset={6}>
-					Testing
-				</Col>
-			</Row>
-
-			<Row>
-				<Col md={6} mdPush={6}>
-					Testing
-				</Col>
-				<Col md={6} mdPull={6}>
-					Testing
+				<Col className="col" xs={2}>
+					<div className="text">Test</div>
 				</Col>
 			</Row>
 		</Grid>
