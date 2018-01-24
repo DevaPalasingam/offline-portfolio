@@ -1,5 +1,6 @@
 import React from "react";
 import { Offline, Online } from "react-detect-offline";
+import OnlineContent from "./OnlineContent";
 
 class App extends React.Component {
 	constructor(props) {
@@ -11,7 +12,9 @@ class App extends React.Component {
 		return (
 			<div>
 				<Offline>You're currently offline</Offline>
-				<Online>You're currently online</Online>
+				<Online>
+					<OnlineContent/>
+				</Online>
 			</div>
 		);
 	}
