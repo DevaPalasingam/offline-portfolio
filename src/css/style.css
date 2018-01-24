@@ -1,0 +1,17 @@
+body {
+	background-color: #2B2B2B;
+}
+
+.onlineText {
+	font-size: 30px;
+	background-color: #E9E581;
+	color: #2B2B2B;
+	font-family: 'Neuton', serif;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.onlineTextMain {
+	font-size: 50px;
+}
+
