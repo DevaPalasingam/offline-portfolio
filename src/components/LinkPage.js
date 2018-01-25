@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 
-const OnlineContent = () => {
+const LinkPage = () => {
 	return (
 		<Grid className="wrapper">
 			<Row className="row">
@@ -14,15 +14,8 @@ const OnlineContent = () => {
 					<div className="text">Try going to airplane mode</div>
 				</Col>
 			</Row>
-			<Row className="row">
-				<Col className="col" xs={12}>
-					<div className="text">
-						Don't worry. We'll watch your stuff for you.
-					</div>
-				</Col>
-			</Row>
 		</Grid>
 	);
 };
 
-export default OnlineContent;
+export default LinkPage;

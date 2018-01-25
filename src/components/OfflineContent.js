@@ -1,5 +1,7 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 
 const OfflineContent = () => {
 	return (
@@ -10,13 +12,13 @@ const OfflineContent = () => {
 				</Col>
 				<Col className="col" xs={12} sm={4}>
 					<Row className="row rowOneThird">
-						<div className="text">Email</div>
+						<div className="text link">Email</div>
 					</Row>
 					<Row className="row rowOneThird">
-						<div className="text">LinkedIn</div>
+						<div className="text link">LinkedIn</div>
 					</Row>
 					<Row className="row rowOneThird">
-						<div className="text">GitHub</div>
+						<div className="text link">GitHub</div>
 					</Row>
 				</Col>
 			</Row>
